@@ -103,7 +103,7 @@ body{
 	min-height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
-	background-image: url('https://i.imgur.com/jiDVAiE.jpg');
+	background-image: url('../img/Tienda.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
