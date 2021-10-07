@@ -87,8 +87,8 @@
 								<td contenteditable='true'><%=usuario.getEmail_usuario()%></td>
 								<td contenteditable='true'><%=usuario.getUsuario()%></td>
 								<td class="main--lista-botones">
-								<form action="${pageContext.request.contextPath}/ServletUsuario" method="get">
-									<input class="main--lista-boton1" type="submit" onclick="id='<%=usuario.getCedula_usuario() %>'" name="Eliminar" value="Eliminar"/>
+								<form action="${pageContext.request.contextPath}/ServletUsuario" method="post">
+									<input class="main--lista-boton1" type="submit" onclick="value='<%=usuario.getCedula_usuario() %>'" name="Eliminar" value="Eliminar"/>
 									<input class="main--lista-boton2" type="submit" onclick="value='<%=usuario.getNombre_usuario()%>'" name="Datos" value="Modificar"/>
 								</form>
 								</td>
